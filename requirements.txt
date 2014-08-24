@@ -1,0 +1,13 @@
+ipython[notebook]
+pandas
+matplotlib
+
+# ----- Extra libraries -----
+# Nice graphs
+vincent
+# Map integration
+folium
+
+# for IPython exports (HTML, slides)
+pygments
+
