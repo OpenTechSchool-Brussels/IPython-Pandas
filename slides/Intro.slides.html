@@ -1773,8 +1773,15 @@ div.output_prompt {
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <h2 id="resources">Resources</h2>
+<p>This workshop is divided in two parts: The first part is about installing everything and getting started with IPython Notebook, and the second part is an introduction to Pandas within the Notebook.</p>
 <p>These slides/documentation and examples are hosted on GitHub:</p>
-<p><a href="https://github.com/OpenTechSchool-Brussels/IPython-Pandas">https://github.com/OpenTechSchool-Brussels/IPython-Pandas</a></p>
+<ul>
+<li><a href="https://github.com/OpenTechSchool-Brussels/IPython-Pandas">https://github.com/OpenTechSchool-Brussels/IPython-Pandas</a></li>
+</ul>
+<p>You can also have a look at this other workshop from OpenTechSchool, which goes further into details of every step, but does not cover Pandas.</p>
+<ul>
+<li><a href="https://opentechschool.github.io/python-data-intro/">Introduction to Data Processing with Python</a></li>
+</ul>
 <p><strong>Patches are welcome !</strong></p>
 <p><em>* These slides are nothing but an IPython notebook</em></p>
 </div>
@@ -1789,7 +1796,7 @@ div.output_prompt {
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <h2 id="installing">Installing</h2>
-<p>This workshop will be using <em>Python 2</em>, as some libraries we will use have not been ported to <em>Python 3</em> yet.</p>
+<p>You are free to use <em>Python 2</em> or the newer <em>Python 3</em>, but the library <code>folium</code>, used in the last part of the Pandas document does has not been ported to <em>Python 3</em> yet and won&#39;t work.</p>
 <h3 id="posix-vs-windows">POSIX vs Windows</h3>
 <p>We will start this workshop by installing Python, IPython Notebook, Pandas and the extra libraries we will be using. The installation procedure is pretty similar on popular Linux distributions and on Mac OS X, but quite different on Windows which is covered in a dedicated section.</p>
 <h3 id="terminal">Terminal</h3>
@@ -1839,9 +1846,10 @@ div.output_prompt {
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="install-on-windows">Install on Windows</h2>
+<h2 id="install-on-windows-with-anaconda">Install on Windows with Anaconda</h2>
 <p>Python does not come pre-installed on your system, and the absence of a decent shell and compiler makes it difficult to install all the dependencies you will need, so the best plan is to install a <em>scientific bundle</em> with most of the tools we need prepared.</p>
 <p><a href="http://continuum.io/downloads">http://continuum.io/downloads</a></p>
+<p>Note: You can also use Anaconda on OS X and Linux, but it is not the recommended approach.</p>
 </div>
 </div>
 </div></section><section>
@@ -1852,10 +1860,13 @@ div.output_prompt {
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <h2 id="other-libraries">Other Libraries</h2>
-<p>We will be using a few other libraries during this workshop. They are optional but some are pretty cool. You can install them now, or keep going and install them when needed.</p>
+<p>You will be using a few other libraries during this workshop. They are optional but some are pretty cool. You can install them now, or keep going and install them when needed.</p>
 <ul>
-<li><a href="https://github.com/wrobstory/folium">Folium</a> for Maps <code>pip install folium</code></li>
 <li><a href="http://docs.python-requests.org/en/latest/">Requests</a> for HTTP requests <code>pip install requests</code></li>
+<li><a href="https://github.com/wrobstory/folium">Folium</a> for Maps <code>pip install folium</code></li>
+</ul>
+<p>You may also want to have a look at this library which is not covered:</p>
+<ul>
 <li><a href="https://github.com/wrobstory/vincent">Vincent</a> for nice looking Graphs <code>pip install vincent</code></li>
 </ul>
 </div>
